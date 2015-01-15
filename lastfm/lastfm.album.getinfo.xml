@@ -11,13 +11,13 @@
         <url>http://ws.audioscrobbler.com/2.0/?method=album.getinfo</url>
       </urls>
       <inputs>
+        <key id="event" type="xs:string" paramType="query" required="false" />
         <key id="artist" type="xs:string" paramType="query" required="false" />
         <key id="album" type="xs:string" paramType="query" required="false" />
         <key id="mbid" type="xs:string" paramType="query" required="false" />
         <key id="username" type="xs:string" paramType="query" required="false" />
         <key id="lang" type="xs:string" paramType="query" required="false" />
         <key id="api_key" type="xs:string" paramType="query" required="true" />
-        
       </inputs>
     </select>
   </bindings>
